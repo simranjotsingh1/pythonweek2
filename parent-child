@@ -16,3 +16,7 @@ class Eagle(pigeon):
 
     def attack(self):
         print("Attacking with the speed of " + str(self.attackspeed))
+e1 = Eagle(12, 30, 46)
+e1.fly()
+e1.land()
+e1.attack()
